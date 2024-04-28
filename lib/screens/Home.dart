@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Home'),
-          actions: [
+          actions: [ 
             ElevatedButton.icon(
                 onPressed: (){
                   FirebaseAuth.instance.signOut();
